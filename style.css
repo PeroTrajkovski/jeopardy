@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@200&family=Montserrat&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #4189e6;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Anton, sans-serif;
+}
+#game{
+    background-color: #255ba1;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card{
+    width: 160px;
+    height: 120px;
+    background-color: #184c91;
+    border-left: 10px solid #133158;
+    border-right: 10px solid #0b2649;
+    border-top: 10px solid #133c70;
+    border-bottom: 10px solid #133c70;
+    text-align: center;
+    justify-content: center;
+    font-size: 100px;
+    margin: 10px;
+    padding: 10px;
+    line-height: 120px;
+    color: #fff;
+}
+.genre-title{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.first-button{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+.second-button{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+.correct-answer{
+    background-color: rgb(17, 189, 17);
+}
+.wrong-answer{
+    background-color: rgb(184, 34, 34);
+}
+.data-correct{
+    font-size: 20px;
+}
+#restart{
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+    background: #0b2649;
+    border-radius: 10px;
+    color: #fff;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px black;
+    transition: all .3s;
+}
+#restart:hover{
+    cursor: pointer;
+    background-color: rgb(238, 238, 89);
+    scale: 1.1;
+    color: black;
+}
